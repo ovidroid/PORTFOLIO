@@ -1,0 +1,152 @@
+body{
+    background-image: url(Need\ a\ Developer.png);
+    background-repeat: no-repeat;
+    background-size: 1380px 700px;  
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border-bottom: 2px solid goldenrod;
+    height:100px;
+}
+#main-menu .nav-bar {
+     list-style:none;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+     }
+#main-menu .nav-bar li {
+     display:inline;
+      padding:0 50px;
+     }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 10px 10px 10px #ccc;
+}
+#main-menu .nav-bar li a:hover{
+    color: goldenrod;
+    font-size: large;
+}    
+
+
+
+.head #logo{
+    /* width:150px; */
+    height: 80px;
+    margin-top:30px;
+    color: goldenrod;
+    text-decoration: solid;
+    /* font-family:erdana, Arial, Helvetica, sans-serif; */
+}
+
+/* Header Ends Here */
+/* 
+.body > button{
+    background-color:green;
+    margin-left: 1000px;
+    margin-top: 80px;
+    width: 200px;
+    height: 50px;
+    border-radius:50px;
+} */
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.bio{
+    /* border: 2px solid gold; */
+    width: 700px;
+}
+.links{
+    /* border: 2px solid gold; */
+width: 700px;
+}
+.body .title{
+    color: goldenrod;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.body .gradient{
+    margin-left: 10px;
+    font-size: 20px;
+    background: -webkit-linear-gradient( green , gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+
+    .fa{
+       color: aliceblue;
+       /* width: 50px;
+       height: 50px; */
+       border: 2px solid goldenrod;
+       font-size: 15px;
+       text-align:center;
+         
+    }
+
+    .links > a{
+        /* text-emphasis: none; */
+        text-decoration: none;
+    }
+
+
+    .fa:hover{
+        color: green;
+       /* width: 50px;
+       height: 50px; */
+       border: 2px solid goldenrod;
+       font-size:larger;
+       text-align:center;
+        
+    }
+
+    .fa-facebook{
+    
+        padding: 5px;
+       margin-left:500px ;
+       margin-top:100px;
+    }
+
+    .fa-twitter{
+        
+        padding: 5px;
+       margin-left:500px ;
+       margin-top:30px;
+    }
+    .fa-instagram{
+                padding: 5px;
+       margin-left:500px ;
+       margin-top:30px;
+    }
+    .fa-github{
+        
+        padding: 5px;
+       margin-left:500px ;
+       margin-top:30px;
+    }
+
+    .fa-linkedin{
+                padding: 5px;
+       margin-left:500px ;
+       margin-top:30px;
+    }
+
+    .fa-google{
+        padding: 5px;
+       margin-left:500px ;
+       margin-top:20px;
+    }
+
+    
+    .links > p{
+      color: #ccc;
+      margin-left: 430px;           
+    }

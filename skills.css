@@ -1,0 +1,50 @@
+body{
+    background-color: #001d3b ;
+}
+
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border-bottom: 2px solid goldenrod;
+}
+#main-menu .nav-bar {
+     list-style:none;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+     }
+#main-menu .nav-bar li {
+     display:inline;
+      padding:0 50px;
+     }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 10px 10px 10px #ccc;
+}
+#main-menu .nav-bar li a:hover{
+    color: goldenrod;
+    font-size: large;
+}    
+
+
+
+.head #logo{
+    /* width:150px; */
+    height: 80px;
+    margin-top:30px;
+    color: goldenrod;
+    text-decoration: solid;
+    /* font-family:erdana, Arial, Helvetica, sans-serif; */
+}
+/* Header Section Ends Here */
+
+.title{
+    text-align: center;
+    color: goldenrod
+}
